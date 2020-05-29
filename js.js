@@ -5,7 +5,7 @@ var x = ["الأول","الثاني","الثالث","الرابع"]
 var i = 0
 var num = 0
 var submit = document.querySelector('#submit')
-var winers =["zainab_ibrahim_99","sfsf_safa","nassem_sat","moha"]
+var winers =["zainab_ibrahim_99","sfsf_safa","ahmed","moha"]
 submit.addEventListener('click',(e)=>{
     
     var str = text.value
