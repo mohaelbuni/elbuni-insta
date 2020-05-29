@@ -1,0 +1,69 @@
+body {
+    background-color: ghostwhite;
+    font-family: 'Amiri', serif;
+}
+#inputText{
+    border-color: #6699ff;
+    border-radius: 12px;
+}
+#wapper{
+    text-align: center;
+}
+
+h1{
+    color: #6699ff;
+}
+h2{
+    
+    color: #ffad33;
+}
+h3{
+    color: #6699ff;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* ?????????????????????????????????????????????????? */
+.loader {
+    margin: 10px auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  #win{
+      margin: 10px;
+  }
+
+  
